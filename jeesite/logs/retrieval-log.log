@@ -1,0 +1,561 @@
+2013-11-30 11:31:19 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 11:31:19 DefaultRDatabaseIndexAllImpl [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default-jdbc.properties，载入数据库配置
+2013-11-30 11:31:19 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 11:31:19 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 11:31:19 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 11:31:19 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 11:31:19 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 11:31:19 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 11:31:19 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 11:31:19 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 11:31:19 IndexWriterPool [DEBUG] checkIn : BS/DB/TABLE1|{	indexPathType:BS/DB/TABLE1	indexWriterProxyObject:null	refCounts:0}
+2013-11-30 11:31:19 IndexWriterProxy [DEBUG] 创建代理对象 org.apache.lucene.index.IndexWriter$$EnhancerByCGLIB$$6b473892@1b3f829
+2013-11-30 11:31:19 DefaultRDatabaseIndexAllImpl [DEBUG] 批量数据索引[BS/DB/TABLE1]新增:3条索引
+2013-11-30 11:31:19 RIndexWriter [DEBUG] 索引  BS/DB/TABLE1 增加 3 条新索引 
+2013-11-30 11:31:21 IndexWriterPool [DEBUG] return  BS/DB/TABLE1 to IndexWriterPool........
+2013-11-30 11:31:21 IndexWriterPool [DEBUG] return  BS/DB/TABLE1 to IndexWriterPool........
+2013-11-30 13:09:40 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:09:40 DefaultRDatabaseIndexAllImpl [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default-jdbc.properties，载入数据库配置
+2013-11-30 13:09:40 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:09:40 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:09:40 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:09:40 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:09:40 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:09:40 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:09:40 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:09:40 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:09:41 IndexWriterPool [DEBUG] checkIn : BS/DB/TEST_WEB|{	indexPathType:BS/DB/TEST_WEB	indexWriterProxyObject:null	refCounts:0}
+2013-11-30 13:09:41 IndexWriterProxy [DEBUG] 创建代理对象 org.apache.lucene.index.IndexWriter$$EnhancerByCGLIB$$77085b08@1b3f829
+2013-11-30 13:09:41 DefaultRDatabaseIndexAllImpl [DEBUG] 批量数据索引[BS/DB/TEST_WEB]新增:102条索引
+2013-11-30 13:09:41 RIndexWriter [DEBUG] 索引  BS/DB/TEST_WEB 增加 102 条新索引 
+2013-11-30 13:09:43 IndexWriterPool [DEBUG] return  BS/DB/TEST_WEB to IndexWriterPool........
+2013-11-30 13:09:43 IndexWriterPool [DEBUG] return  BS/DB/TEST_WEB to IndexWriterPool........
+2013-11-30 13:13:48 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:13:48 DefaultRDatabaseIndexAllImpl [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default-jdbc.properties，载入数据库配置
+2013-11-30 13:13:48 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:13:48 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:13:48 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:13:48 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:13:48 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:13:48 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:13:48 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:13:48 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:13:48 IndexWriterPool [DEBUG] checkIn : BS/DB/TEST_WEB|{	indexPathType:BS/DB/TEST_WEB	indexWriterProxyObject:null	refCounts:0}
+2013-11-30 13:13:48 IndexWriterProxy [DEBUG] 创建代理对象 org.apache.lucene.index.IndexWriter$$EnhancerByCGLIB$$77085b08@1b3f829
+2013-11-30 13:13:48 DefaultRDatabaseIndexAllImpl [DEBUG] 批量数据索引[BS/DB/TEST_WEB]新增:102条索引
+2013-11-30 13:13:48 RIndexWriter [DEBUG] 索引  BS/DB/TEST_WEB 增加 102 条新索引 
+2013-11-30 13:13:52 IndexWriterPool [DEBUG] return  BS/DB/TEST_WEB to IndexWriterPool........
+2013-11-30 13:13:52 IndexWriterPool [DEBUG] return  BS/DB/TEST_WEB to IndexWriterPool........
+2013-11-30 13:14:08 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:14:08 DefaultRDatabaseIndexAllImpl [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default-jdbc.properties，载入数据库配置
+2013-11-30 13:14:08 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:14:08 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:15:14 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:15:14 DefaultRDatabaseIndexAllImpl [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default-jdbc.properties，载入数据库配置
+2013-11-30 13:15:14 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:15:14 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:16:05 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:16:05 DefaultRDatabaseIndexAllImpl [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default-jdbc.properties，载入数据库配置
+2013-11-30 13:16:05 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:16:05 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:16:34 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:16:34 DefaultRDatabaseIndexAllImpl [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default-jdbc.properties，载入数据库配置
+2013-11-30 13:16:34 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:16:34 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:21:18 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:21:18 DefaultRDatabaseIndexAllImpl [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default-jdbc.properties，载入数据库配置
+2013-11-30 13:21:18 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:21:18 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:21:18 IndexReaderPool [DEBUG] check out null
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] 创建代理对象 ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] checkIn : BS/DB/TEST_WEB|{	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:0}
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:21:19 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:21:19 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:21:19 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:21:19 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:23:56 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:23:56 DefaultRDatabaseIndexAllImpl [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default-jdbc.properties，载入数据库配置
+2013-11-30 13:23:56 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:23:56 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:23:56 IndexReaderPool [DEBUG] check out null
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] 创建代理对象 ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] checkIn : BS/DB/TEST_WEB|{	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:0}
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:23:57 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:23:57 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:23:57 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:23:57 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:25:57 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:25:57 DefaultRDatabaseIndexAllImpl [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default-jdbc.properties，载入数据库配置
+2013-11-30 13:25:57 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:25:57 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
+2013-11-30 13:25:57 IndexReaderPool [DEBUG] check out null
+2013-11-30 13:25:57 IndexReaderProxy [DEBUG] 创建代理对象 ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)
+2013-11-30 13:25:57 IndexReaderPool [DEBUG] checkIn : BS/DB/TEST_WEB|{	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:0}
+2013-11-30 13:25:57 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 IndexReaderPool [DEBUG] check out {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 RQuery [DEBUG] close : {	indexPathType:BS/DB/TEST_WEB	indexReaderProxyObject:ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714)	refCounts:1}
+2013-11-30 13:25:58 IndexReaderProxy [DEBUG] return IndexReaderProxy to pool : ReadOnlyDirectoryReader(segments_8 _c(3.6.2):C714) refCount : 0
+2013-11-30 13:25:58 RetrievalProperties [DEBUG] 发现全文检索属性配置文件:retrieval.properties，载入配置
+2013-11-30 13:25:58 DefaultRetrievalProperties [DEBUG] 发现DefaultRDatabaseIndexAllImpl属性配置文件:retrieval-default.properties，载入数据库配置
+2013-11-30 13:25:58 RetrievalApplicationContext [DEBUG] RetrievalProperties:{
+	LUCENE_INDEX_BASE_PATH:D:/Workspace/jeesite/index
+	LUCENE_PARAM_VERSION:LUCENE_30
+	LUCENE_PARAM_MAX_FIELD_LENGTH:10000
+	LUCENE_PARAM_RAM_BUFFER_SIZE_MB:128.0
+	LUCENE_PARAM_MAX_BUFFERED_DOCS:3000
+	LUCENE_PARAM_MERGE_FACTOR:100
+	LUCENE_PARAM_MAX_MERGE_DOCS:2147483647
+	INDEX_MAX_FILE_DOCUMENT_PAGE_SIZE:100
+	INDEX_MAX_INDEX_FILE_SIZE:3145728
+	INDEX_MAX_DB_DOCUMENT_PAGE_SIZE:500
+	INDEX_DEFAULT_CHARSET:utf-8
+	QUERY_RESULT_TOP_DOCS_NUM:3000
+	RETRIEVAL_EXTENDS_CLASS_FILE_CONTENT_PARSER_MANAGER:class framework.retrieval.engine.index.create.impl.file.FileContentParserManager
+	RETRIEVAL_EXTENDS_CLASS_ANALYZER_BUILDER:class framework.retrieval.engine.analyzer.impl.IKCAnalyzerBuilder
+	RETRIEVAL_EXTENDS_CLASS_HEIGHLIGHTER_MAKER:class framework.retrieval.engine.query.formatter.impl.HighlighterMaker
+	RETRIEVAL_EXTENDS_CLASS_DATABASE_INDEX_ALL:class framework.retrieval.engine.index.all.database.impl.rdAbstract.DefaultRDatabaseIndexAllImpl
+}
