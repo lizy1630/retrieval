@@ -241,4 +241,23 @@ public class RetrievalType implements Serializable {
 		 */
 		DELETE;
 	}
+	
+	/*************************************************************************
+	 * 数据库类型，暂时支持MySql/Oracle/SqlServer
+	 * 
+	 */
+	public enum RDatabaseType implements Serializable {
+		/**
+		 * MySql数据库
+		 */
+		MYSQL,
+		/**
+		 * Oracle数据库
+		 */
+		ORACLE,
+		/**
+		 * SqlServer数据库
+		 */
+		SQLSERVER;
+	}
 }

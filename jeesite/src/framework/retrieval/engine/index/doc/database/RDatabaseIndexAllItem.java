@@ -19,6 +19,7 @@ import java.io.Serializable;
 
 import framework.retrieval.engine.RetrievalConstant;
 import framework.retrieval.engine.RetrievalType;
+import framework.retrieval.engine.RetrievalType.RDatabaseType;
 import framework.retrieval.engine.facade.IRDocOperatorFacade;
 import framework.retrieval.engine.facade.IRQueryFacade;
 import framework.retrieval.engine.index.all.database.IIndexAllDatabaseFileIndexOperator;
@@ -94,6 +95,8 @@ public class RDatabaseIndexAllItem implements Serializable{
 	private int maxPageSize=10000;
 	
 	private long maxIndexFileSize=RetrievalConstant.DEFAULT_INDEX_MAX_FILE_SZIE;
+	
+	private RDatabaseType databaseType;
 	
 	/**
 	 * 
@@ -328,6 +331,18 @@ public class RDatabaseIndexAllItem implements Serializable{
 
 	public void setMaxIndexFileSize(long maxIndexFileSize) {
 		this.maxIndexFileSize = maxIndexFileSize;
+	}
+	
+	/**
+	 * 数据库类型
+	 * @return
+	 */
+	public RDatabaseType getDatabaseType() {
+		return databaseType;
+	}
+
+	public void setDatabaseType(RDatabaseType databaseType) {
+		this.databaseType = databaseType;
 	}
 
 }

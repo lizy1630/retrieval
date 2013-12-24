@@ -19,6 +19,7 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
+import framework.retrieval.engine.RetrievalType.RDatabaseType;
 import framework.retrieval.engine.index.RetrievalIndexException;
 import framework.retrieval.engine.index.all.database.impl.AbstractRDatabaseIndexAll;
 import framework.retrieval.engine.index.doc.database.RDatabaseIndexAllItem;
@@ -42,11 +43,16 @@ public abstract class AbstractDefaultRDatabaseIndexAll extends AbstractRDatabase
 		RDatabaseIndexAllItem item=getDatabaseIndexAllItem();
 		
 		String sql=item.getSql();
+		RDatabaseType databaseType = super.getDatabaseIndexAllItem().getDatabaseType();
+		String limitSql = null;
+		if(databaseType==RDatabaseType.MYSQL)
+			limitSql=getLimitString_MySql(sql, getNowCount(), item.getPageSize());
+		else if(databaseType==RDatabaseType.ORACLE)
+			limitSql=getLimitString_Oracle(sql, getNowCount(), item.getPageSize());
+		else if(databaseType==RDatabaseType.SQLSERVER)
+			limitSql=getLimitString_SqlServer(sql, getNowCount(), item.getPageSize());
 		
-		String limitSql=getLimitString_MySql(sql, getNowCount(), item.getPageSize());
-
 		setNowCount(getNowCount()+item.getPageSize());
-		
 		try {
 			return this.getResult(limitSql, item.getParam());
 		} catch (Exception e) {

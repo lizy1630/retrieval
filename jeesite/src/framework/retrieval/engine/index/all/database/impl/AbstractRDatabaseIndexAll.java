@@ -130,15 +130,15 @@ public abstract class AbstractRDatabaseIndexAll implements IRDatabaseIndexAll{
 		return pagingSelect.toString();
 	}
 	
-	protected String getLimitString_SqlServer(String tableName, int from, int size) {
+	protected String getLimitString_SqlServer(String sql, int from, int size) {
 		StringBuffer pagingSelect = new StringBuffer();
 		pagingSelect.append(" select * from ( select row_number()over(order by tempcolumn)temprownumber,*");
 		pagingSelect.append(" from (select top ");
 		pagingSelect.append(from + size);
-		pagingSelect.append(" tempcolumn=0,* from ");
-		pagingSelect.append(tableName);
-		pagingSelect.append(" )t)tt ");
-		pagingSelect.append(" where temprownumber> ");
+		pagingSelect.append(" tempcolumn=0,* from (");
+		pagingSelect.append(sql);
+		pagingSelect.append(" )t)tt)ttt ");
+		pagingSelect.append(" where ttt.temprownumber> ");
 		pagingSelect.append(from);
 		return pagingSelect.toString();
 	}
