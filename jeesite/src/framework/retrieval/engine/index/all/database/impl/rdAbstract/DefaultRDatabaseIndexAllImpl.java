@@ -15,14 +15,11 @@
  */
 package framework.retrieval.engine.index.all.database.impl.rdAbstract;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
-import java.util.Properties;
 
 import org.apache.commons.dbutils.DbUtils;
 import org.apache.commons.dbutils.QueryRunner;
@@ -30,10 +27,11 @@ import org.apache.commons.dbutils.ResultSetHandler;
 import org.apache.commons.dbutils.handlers.MapListHandler;
 import org.apache.commons.logging.Log;
 
-import framework.base.snoic.base.util.properties.ReadProperties;
+import framework.base.snoic.base.util.ReflectUtil;
 import framework.retrieval.engine.common.RetrievalUtil;
-import framework.retrieval.engine.context.RetrievalLoadException;
+import framework.retrieval.engine.context.DefaultRetrievalProperties;
 import framework.retrieval.engine.index.RetrievalIndexException;
+import framework.retrieval.engine.index.all.database.DatabaseLink;
 
 /**
  * 内置对数据库中的记录批量创建索引接口默认实现
@@ -46,51 +44,6 @@ public class DefaultRDatabaseIndexAllImpl extends
 
 	private static Log log=RetrievalUtil.getLog(DefaultRDatabaseIndexAllImpl.class);
 	
-	private static final String JDBC_PROPERTY_FILE_NAME="retrieval-default-jdbc.properties";
-	
-	private static final String PARAM_NAME_JDBC_DRIVER="database.indexall.jdbc.driver";
-	private static final String PARAM_NAME_JDBC_URL="database.indexall.jdbc.url";
-	private static final String PARAM_NAME_JDBC_USER="database.indexall.jdbc.user";
-	private static final String PARAM_NAME_JDBC_PASSWORD="database.indexall.jdbc.password";
-	
-	private static String jdbcDriver="";
-	private static String jdbcUrl="";
-	private static String jdbcUser="";
-	private static String jdbcPassword="";
-	
-	static{
-		
-		ReadProperties readProperties=new ReadProperties();
-		
-		InputStream inputStream=DefaultRDatabaseIndexAllImpl.class.getResourceAsStream("/"+JDBC_PROPERTY_FILE_NAME);
-		
-		if(inputStream!=null){
-			
-			RetrievalUtil.debugLog(log, "发现DefaultRDatabaseIndexAllImpl属性配置文件:"+JDBC_PROPERTY_FILE_NAME+"，载入数据库配置");
-
-			Properties properties=new Properties();
-			
-			try {
-				properties.load(inputStream);
-			} catch (IOException e) {
-				throw new RetrievalLoadException(e);
-			}
-			
-			readProperties.setProperties(properties);
-			readProperties.parse();
-			
-			jdbcDriver=readProperties.readValue(PARAM_NAME_JDBC_DRIVER);
-			jdbcUrl=readProperties.readValue(PARAM_NAME_JDBC_URL);
-			jdbcUser=readProperties.readValue(PARAM_NAME_JDBC_USER);
-			jdbcPassword=readProperties.readValue(PARAM_NAME_JDBC_PASSWORD);
-			
-			readProperties.close();
-			
-		}
-		
-	}
-	
-	
 	/**
 	 * 获取数据库连接
 	 * 
@@ -99,8 +52,19 @@ public class DefaultRDatabaseIndexAllImpl extends
 	private Connection getConnection() {
 		Connection conn = null;
 		try {
-			DbUtils.loadDriver(jdbcDriver);
-			conn = DriverManager.getConnection(jdbcUrl, jdbcUser, jdbcPassword);
+			String default_retrieval_database_choose_class = DefaultRetrievalProperties.getDefault_retrieval_database_choose_class();
+			String[] classAndMethod = default_retrieval_database_choose_class.split(":");
+			String className = classAndMethod[0];
+			String methodName = null;
+			if (classAndMethod.length == 1) {
+				methodName = "loadDatabaseLink";
+			} else {
+				methodName = classAndMethod[1];
+			}
+			// 反射调用
+			DatabaseLink databaseLink = (DatabaseLink) ReflectUtil.invokeMethod(className, methodName);
+			DbUtils.loadDriver(databaseLink.getJdbcDriver());
+			conn = DriverManager.getConnection(databaseLink.getJdbcUrl(), databaseLink.getJdbcUser(), databaseLink.getJdbcPassword());
 		} catch (SQLException e) {
 			throw new RetrievalIndexException(e);
 		}

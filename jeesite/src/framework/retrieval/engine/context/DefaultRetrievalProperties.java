@@ -53,6 +53,25 @@ public class DefaultRetrievalProperties {
 	private static String default_retrieval_redis_server_path = DEFAULT_RETRIEVAL_REDIS_SERVER_PATH;
 	
 	
+	/**
+	 * 数据库连接地址（该功能现在基本已经不用，云因，只能连单个数据库）
+	 */
+	private static final String PARAM_NAME_JDBC_DRIVER="database.indexall.jdbc.driver";
+	private static final String PARAM_NAME_JDBC_URL="database.indexall.jdbc.url";
+	private static final String PARAM_NAME_JDBC_USER="database.indexall.jdbc.user";
+	private static final String PARAM_NAME_JDBC_PASSWORD="database.indexall.jdbc.password";
+	
+	private static String jdbcDriver="";
+	private static String jdbcUrl="";
+	private static String jdbcUser="";
+	private static String jdbcPassword="";
+	
+	/**
+	 * 采用数据库的方式
+	 */
+	private static final String DEFAULT_RETRIEVAL_DATABASE_CHOOSE_CLASS="DEFAULT_RETRIEVAL_DATABASE_CHOOSE_CLASS";
+	private static String default_retrieval_database_choose_class="";
+	
 	public DefaultRetrievalProperties(){
 		
 		ReadProperties readProperties=new ReadProperties();
@@ -93,6 +112,27 @@ public class DefaultRetrievalProperties {
 			taskparam = StringClass.getString(readProperties.readValue(PROPERTIES_RETRIEVAL_REDIS_SERVER_PATH));
 			if(!taskparam.equals("")){
 				default_retrieval_redis_server_path = taskparam;
+			}
+			
+			taskparam = StringClass.getString(readProperties.readValue(PARAM_NAME_JDBC_DRIVER));
+			if(!taskparam.equals("")){
+				jdbcDriver=taskparam;
+			}
+			taskparam = StringClass.getString(readProperties.readValue(PARAM_NAME_JDBC_URL));
+			if(!taskparam.equals("")){
+				jdbcUrl=taskparam;
+			}
+			taskparam = StringClass.getString(readProperties.readValue(PARAM_NAME_JDBC_USER));
+			if(!taskparam.equals("")){
+				jdbcUser=taskparam;
+			}
+			taskparam = StringClass.getString(readProperties.readValue(PARAM_NAME_JDBC_PASSWORD));
+			if(!taskparam.equals("")){
+				jdbcPassword=taskparam;
+			}
+			taskparam = StringClass.getString(readProperties.readValue(DEFAULT_RETRIEVAL_DATABASE_CHOOSE_CLASS));
+			if(!taskparam.equals("")){
+				default_retrieval_database_choose_class=taskparam;
 			}
 			readProperties.close();
 		}
@@ -140,6 +180,47 @@ public class DefaultRetrievalProperties {
 	public static void setDefault_retrieval_redis_server_path(
 			String default_retrieval_redis_server_path) {
 		DefaultRetrievalProperties.default_retrieval_redis_server_path = default_retrieval_redis_server_path;
+	}
+
+	public static String getJdbcDriver() {
+		return jdbcDriver;
+	}
+
+	public static void setJdbcDriver(String jdbcDriver) {
+		DefaultRetrievalProperties.jdbcDriver = jdbcDriver;
+	}
+
+	public static String getJdbcUrl() {
+		return jdbcUrl;
+	}
+
+	public static void setJdbcUrl(String jdbcUrl) {
+		DefaultRetrievalProperties.jdbcUrl = jdbcUrl;
+	}
+
+	public static String getJdbcUser() {
+		return jdbcUser;
+	}
+
+	public static void setJdbcUser(String jdbcUser) {
+		DefaultRetrievalProperties.jdbcUser = jdbcUser;
+	}
+
+	public static String getJdbcPassword() {
+		return jdbcPassword;
+	}
+
+	public static void setJdbcPassword(String jdbcPassword) {
+		DefaultRetrievalProperties.jdbcPassword = jdbcPassword;
+	}
+
+	public static String getDefault_retrieval_database_choose_class() {
+		return default_retrieval_database_choose_class;
+	}
+
+	public static void setDefault_retrieval_database_choose_class(
+			String default_retrieval_database_choose_class) {
+		DefaultRetrievalProperties.default_retrieval_database_choose_class = default_retrieval_database_choose_class;
 	}
 	
 
