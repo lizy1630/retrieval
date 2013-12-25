@@ -260,4 +260,15 @@ public class RetrievalType implements Serializable {
 		 */
 		SQLSERVER;
 	}
+	
+	public enum RDatabaseDefaultDocItemType implements Serializable {
+		/**
+		 * 标题
+		 */
+		_TITLE,
+		/**
+		 * 摘要
+		 */
+		_RESUME;
+	}
 }

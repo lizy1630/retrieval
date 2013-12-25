@@ -83,4 +83,33 @@ public class RDatabaseDocument extends RDefaultDocument{
 		return this.getClass()+"["+getSourceIndexType()+"]"+"@"+this.getId()+" "+this.getTableName()+" "+this.getRecordId();
 	}
 	
+	/**
+	 * 设置标题
+	 */
+	public void setDefaultTitle(String title) {
+		this.setContentField(RetrievalType.RDatabaseDefaultDocItemType._TITLE, title);
+	}
+
+	/**
+	 * 返回标题
+	 * @return
+	 */
+	public String getDefaultTitle() {
+		return this.getField(RetrievalType.RDatabaseDefaultDocItemType._TITLE);
+	}
+
+	/**
+	 * 设置摘要
+	 */
+	public void setDefaultResume(String resume) {
+		this.setContentField(RetrievalType.RDatabaseDefaultDocItemType._RESUME, resume);
+	}
+
+	/**
+	 * 返回摘要
+	 * @return
+	 */
+	public String getDefaultResume() {
+		return this.getField(RetrievalType.RDatabaseDefaultDocItemType._RESUME);
+	}
 }

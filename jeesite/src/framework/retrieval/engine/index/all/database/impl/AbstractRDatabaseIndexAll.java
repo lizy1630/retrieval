@@ -159,19 +159,35 @@ public abstract class AbstractRDatabaseIndexAll implements IRDatabaseIndexAll{
 			fieldTypeMap=databaseRecordInterceptor.getFieldsType();
 		}
 		
-		Object[][] objects=UtilTool.getMapKeyValue(map);
-		int len=objects.length;
-		
 		String recordId=StringClass.getString(map.get(databaseIndexAllItem.getKeyField()));
-
+		String _title = StringClass.getString(map.get(databaseIndexAllItem.getDefaultTitleFieldName()));
+		String _resume = StringClass.getString(map.get(databaseIndexAllItem.getDefaultResumeFieldName()));
+				
 		DatabaseIndexDocument databaseIndexDocument=new DatabaseIndexDocument(databaseIndexAllItem.isFullContentFlag());
 		databaseIndexDocument.setIndexInfoType(databaseIndexAllItem.getIndexInfoType());
 		databaseIndexDocument.setIndexPathType(databaseIndexAllItem.getIndexPathType());
 		databaseIndexDocument.setTableNameAndRecordId(databaseIndexAllItem.getTableName(),recordId);
 		databaseIndexDocument.setKeyfieldName(databaseIndexAllItem.getKeyField());
+		databaseIndexDocument.setDefaultTitle(_title);
+		databaseIndexDocument.setDefaultResume(_resume);
+		
+		if(true){
+			map.remove(databaseIndexAllItem.getKeyField());
+			map.remove(databaseIndexAllItem.getDefaultTitleFieldName());
+			map.remove(databaseIndexAllItem.getDefaultResumeFieldName());
+		}
+		
+		Object[][] objects=UtilTool.getMapKeyValue(map);
+		int len=objects.length;
+		
+		Map<String,String> fieldMapper = databaseIndexAllItem.getFieldMapper();
 		
 		for(int j=0;j<len;j++){
 			String name=StringClass.getString(objects[j][0]).toUpperCase();
+			if(fieldMapper!=null&&!fieldMapper.isEmpty()){
+				if(fieldMapper.get(name)!=null)
+					name =  fieldMapper.get(name);
+			}
 			String content=StringClass.getString(objects[j][1]);
 			RDocItem docItem=new RDocItem();
 			docItem.setName(name);

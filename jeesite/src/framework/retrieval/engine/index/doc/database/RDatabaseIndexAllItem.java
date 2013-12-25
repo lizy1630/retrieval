@@ -16,6 +16,7 @@
 package framework.retrieval.engine.index.doc.database;
 
 import java.io.Serializable;
+import java.util.Map;
 
 import framework.retrieval.engine.RetrievalConstant;
 import framework.retrieval.engine.RetrievalType;
@@ -97,6 +98,21 @@ public class RDatabaseIndexAllItem implements Serializable{
 	private long maxIndexFileSize=RetrievalConstant.DEFAULT_INDEX_MAX_FILE_SZIE;
 	
 	private RDatabaseType databaseType;
+	
+	/**
+	 * index索引的存储路径设置，前缀为1_,2_,3_...开始
+	 */
+	private String indexPath;
+	
+	/**
+	 * 是否要去除重复，默认去除
+	 */
+	private boolean rmDuplicate=true;
+	
+	/**
+	 * 字段映射，将数据库字段转成索引字段
+	 */
+	private Map<String,String> fieldMapper;
 	
 	/**
 	 * 
@@ -343,6 +359,30 @@ public class RDatabaseIndexAllItem implements Serializable{
 
 	public void setDatabaseType(RDatabaseType databaseType) {
 		this.databaseType = databaseType;
+	}
+
+	public String getIndexPath() {
+		return indexPath;
+	}
+
+	public void setIndexPath(String indexPath) {
+		this.indexPath = indexPath;
+	}
+
+	public boolean isRmDuplicate() {
+		return rmDuplicate;
+	}
+
+	public void setRmDuplicate(boolean rmDuplicate) {
+		this.rmDuplicate = rmDuplicate;
+	}
+
+	public Map<String, String> getFieldMapper() {
+		return fieldMapper;
+	}
+
+	public void setFieldMapper(Map<String, String> fieldMapper) {
+		this.fieldMapper = fieldMapper;
 	}
 
 }

@@ -16,7 +16,7 @@ public class TestDatabaseRecordInterceptor implements IIndexAllDatabaseRecordInt
 	public Map interceptor(Map record) {
 		
 		record.put("DOC_CREATE_TIME", String.valueOf(System.currentTimeMillis()));
-		record.put("content",RegexUtil.Html2Text((String)record.get("content")));//取出html标签
+		record.put("content",RegexUtil.Html2Text((String)record.get("content")));//去掉html标签
 		return record;
 	}
 

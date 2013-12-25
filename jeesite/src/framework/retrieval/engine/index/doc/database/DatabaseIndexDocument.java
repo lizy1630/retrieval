@@ -82,6 +82,34 @@ public class DatabaseIndexDocument extends AbstractIndexDocument implements Seri
 		return rDocument;
 	}
 	
+	/**
+	 * 设置标题
+	 */
+	public void setDefaultTitle(String title){
+		rDocument.setDefaultTitle(title);
+	}
+	/**
+	 * 返回标题
+	 * @return
+	 */
+	public String getDefaultTitle(){
+		return rDocument.getDefaultTitle();
+	}
 	
+	/**
+	 * 设置摘要
+	 */
+	public void setDefaultResume(String resume){
+		rDocument.setDefaultResume(resume);
+	}
 	
+	/**
+	 * 返回摘要
+	 * @return
+	 */
+	public String getDefaultResume(){
+		return rDocument.getDefaultResume();
+	}
+
+
 }
