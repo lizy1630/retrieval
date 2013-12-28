@@ -28,7 +28,7 @@ import javax.xml.bind.Unmarshaller;
 import framework.base.snoic.base.BuildSnoicsClassFactory;
 import framework.base.snoic.base.interfaces.log.Log;
 import framework.base.snoic.base.util.StringClass;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 
 /**
  *  解组Xml
@@ -48,7 +48,7 @@ public class XmlUnmarshal implements IXmlUnmarshal, Serializable{
 	private String xmlFileName=null;
 	private InputStream xmlInputStream=null;
 	
-	private SnoicsFileHelper snoicsFileHelper=new SnoicsFileHelper();
+	private FileHelper snoicsFileHelper=new FileHelper();
 	
 	private JAXBContext jaxbContext=null;
 

@@ -23,7 +23,7 @@ import framework.base.snoic.base.interfaces.log.Log;
 import framework.base.snoic.base.log.LogFactory;
 import framework.base.snoic.base.net.UrlTool;
 import framework.base.snoic.base.util.StringClass;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 import framework.base.snoic.base.xml.ReadXml;
 import framework.base.snoic.system.common.SystemCommonUtil;
 /**
@@ -40,7 +40,7 @@ public class SystemConfigPath {
     private InputStream configPathInputStream=null;
     private String systemFilename="";
     private String spaceChar=" ";
-    private SnoicsFileHelper snoicsFile=new SnoicsFileHelper();
+    private FileHelper snoicsFile=new FileHelper();
     private Log log=LogFactory.getLogFactory().builderLog();
     
     private SystemConfigPath(){

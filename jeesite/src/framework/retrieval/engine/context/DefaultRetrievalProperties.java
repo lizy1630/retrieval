@@ -72,6 +72,12 @@ public class DefaultRetrievalProperties {
 	private static final String DEFAULT_RETRIEVAL_DATABASE_CHOOSE_CLASS="DEFAULT_RETRIEVAL_DATABASE_CHOOSE_CLASS";
 	private static String default_retrieval_database_choose_class="";
 	
+	/**
+	 * imageMagick安裝的路徑
+	 */
+	private static final String DEFAULT_RETRIEVAL_IMAGEMAGICK_PATH = "DEFAULT_RETRIEVAL_IMAGEMAGICK_PATH";
+	private static String default_retrieval_imagemagick_path="";
+	
 	public DefaultRetrievalProperties(){
 		
 		ReadProperties readProperties=new ReadProperties();
@@ -133,6 +139,10 @@ public class DefaultRetrievalProperties {
 			taskparam = StringClass.getString(readProperties.readValue(DEFAULT_RETRIEVAL_DATABASE_CHOOSE_CLASS));
 			if(!taskparam.equals("")){
 				default_retrieval_database_choose_class=taskparam;
+			}
+			taskparam = StringClass.getString(readProperties.readValue(DEFAULT_RETRIEVAL_IMAGEMAGICK_PATH));
+			if(!taskparam.equals("")){
+				default_retrieval_imagemagick_path=taskparam;
 			}
 			readProperties.close();
 		}
@@ -221,6 +231,15 @@ public class DefaultRetrievalProperties {
 	public static void setDefault_retrieval_database_choose_class(
 			String default_retrieval_database_choose_class) {
 		DefaultRetrievalProperties.default_retrieval_database_choose_class = default_retrieval_database_choose_class;
+	}
+
+	public static String getDefault_retrieval_imagemagick_path() {
+		return default_retrieval_imagemagick_path;
+	}
+
+	public static void setDefault_retrieval_imagemagick_path(
+			String default_retrieval_imagemagick_path) {
+		DefaultRetrievalProperties.default_retrieval_imagemagick_path = default_retrieval_imagemagick_path;
 	}
 	
 

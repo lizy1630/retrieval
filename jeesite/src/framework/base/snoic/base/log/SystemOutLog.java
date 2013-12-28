@@ -20,7 +20,7 @@ import java.util.Date;
 
 import framework.base.snoic.base.interfaces.log.Log;
 import framework.base.snoic.base.util.DateTime;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 /**
  * 捕获控制台所有的信息
  * @author 
@@ -40,7 +40,7 @@ public class SystemOutLog implements Log{
 
     private int logType = 0;
     
-    private SnoicsFileHelper snoicsFile = new SnoicsFileHelper();
+    private FileHelper snoicsFile = new FileHelper();
     
     //前一次的时间
     private static long predatelongtime=-1;

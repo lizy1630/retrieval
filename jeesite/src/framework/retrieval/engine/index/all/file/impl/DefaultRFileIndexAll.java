@@ -26,7 +26,7 @@ import org.apache.lucene.index.IndexWriter;
 
 import framework.base.snoic.base.util.StringClass;
 import framework.base.snoic.base.util.UtilTool;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 import framework.retrieval.engine.RetrievalType;
 import framework.retrieval.engine.common.RetrievalUtil;
 import framework.retrieval.engine.facade.IRDocOperatorFacade;
@@ -46,7 +46,7 @@ import framework.retrieval.engine.index.doc.internal.RDocItem;
 public class DefaultRFileIndexAll implements IRFileIndexAll{
 	private Log log=RetrievalUtil.getLog(this.getClass());
 	
-	private static SnoicsFileHelper SnoicsFileHelper = new SnoicsFileHelper();
+	private static FileHelper FileHelper = new FileHelper();
 	private IRQueryFacade queryFacade=null;
 	private IRDocOperatorFacade docOperatorFacade=null;
 	private RFileIndexAllItem fileIndexAllItem=null;
@@ -98,7 +98,7 @@ public class DefaultRFileIndexAll implements IRFileIndexAll{
 	 */
 	private void indexAll(String filePath,List<FileIndexDocument> allFileIndexDocumentList){
 		
-		if(!SnoicsFileHelper.isDir(filePath)){
+		if(!FileHelper.isDir(filePath)){
 			
 			if(allFileIndexDocumentList!=null && allFileIndexDocumentList.size()>0){
 				createFileIndex(allFileIndexDocumentList);
@@ -115,11 +115,11 @@ public class DefaultRFileIndexAll implements IRFileIndexAll{
 			for(int i=0;i<length;i++){
 				String fileName=StringClass.getFormatPath(filePath+"/"+fileList[i]);
 				
-				if(SnoicsFileHelper.isDir(fileName)){
+				if(FileHelper.isDir(fileName)){
 					if(fileIndexAllItem.isIncludeSubDir()){
 						indexAll(fileName,allFileIndexDocumentList);
 					}
-				}else if(SnoicsFileHelper.isFile(fileName)){
+				}else if(FileHelper.isFile(fileName)){
 
 					String fileType=RetrievalUtil.getFileType(fileName);
 					

@@ -18,7 +18,7 @@ package framework.base.snoic.system.conf;
 import framework.base.snoic.base.BuildSnoicsClassFactory;
 import framework.base.snoic.base.ISnoicsClass;
 import framework.base.snoic.base.util.StringClass;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 import framework.base.snoic.system.common.SystemCommonUtil;
 
 
@@ -34,7 +34,7 @@ public class SystemConfigLogInfo {
 	private String printType="";
 	private String showTime="";
 	private String log4jConfigfile="";
-	private SnoicsFileHelper snoicsFileHelper=new SnoicsFileHelper();
+	private FileHelper snoicsFileHelper=new FileHelper();
 	private ISnoicsClass snoicsClass=BuildSnoicsClassFactory.createSnoicsClass();
 
     /**

@@ -33,7 +33,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import framework.base.snoic.base.util.StringClass;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 /**
  * XML文件操作
  * @author 
@@ -405,7 +405,7 @@ public final class XMLUtil {
     public static boolean saveDocument(Document document, Object filename) {
     	File xmlFile = null;
     	if(filename instanceof String) {
-    		SnoicsFileHelper snoicsFile = new SnoicsFileHelper();
+    		FileHelper snoicsFile = new FileHelper();
         	filename = StringClass.getFormatPath((String)filename);
     		if (!snoicsFile.isFile((String)filename)) {
     			snoicsFile.createFile((String)filename);

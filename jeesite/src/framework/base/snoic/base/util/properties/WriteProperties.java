@@ -20,7 +20,7 @@ import java.util.Map;
 import java.util.Properties;
 
 import framework.base.snoic.base.util.UtilTool;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 
 /**
  * 写入properties操作
@@ -30,7 +30,7 @@ import framework.base.snoic.base.util.file.SnoicsFileHelper;
 public class WriteProperties {
 	private Object propertiesObject=null;
 	private Properties properties=null;
-	private SnoicsFileHelper snoicsFile=new SnoicsFileHelper();
+	private FileHelper snoicsFile=new FileHelper();
 	private OutputStream outputStream=null;
 	private ReadProperties readProperties=new ReadProperties();
 	

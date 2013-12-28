@@ -25,7 +25,7 @@ import org.apache.lucene.util.Version;
 
 import framework.base.snoic.base.util.RandomSeed;
 import framework.base.snoic.base.util.StringClass;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 import framework.retrieval.engine.RetrievalConstant;
 import framework.retrieval.engine.RetrievalException;
 
@@ -38,7 +38,7 @@ import framework.retrieval.engine.RetrievalException;
  */
 
 public class RetrievalUtil {
-    private static SnoicsFileHelper fileHelper=new SnoicsFileHelper();
+    private static FileHelper fileHelper=new FileHelper();
 
 	private RetrievalUtil(){
 		

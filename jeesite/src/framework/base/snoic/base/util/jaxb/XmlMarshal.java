@@ -31,7 +31,7 @@ import com.sun.org.apache.xml.internal.serialize.XMLSerializer;
 import framework.base.snoic.base.BuildSnoicsClassFactory;
 import framework.base.snoic.base.interfaces.log.Log;
 import framework.base.snoic.base.util.StringClass;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 
 /**
  * 编组Xml
@@ -55,7 +55,7 @@ public class XmlMarshal implements IXmlMarshal, Serializable{
 	private OutputStream xmlOutputStream=null;
 	
 	private Object object=null;
-	private SnoicsFileHelper snoicsFileHelper=new SnoicsFileHelper();
+	private FileHelper snoicsFileHelper=new FileHelper();
 
 	public List getCdataNodeList() {
 		return cdataNodeList;

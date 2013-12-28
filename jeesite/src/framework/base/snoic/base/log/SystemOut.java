@@ -21,7 +21,7 @@ import java.io.OutputStream;
 import java.io.PrintStream;
 
 import framework.base.snoic.base.util.StringClass;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 
 /**
  * 
@@ -34,7 +34,7 @@ public class SystemOut {
 	private static PrintStream printStreamOut=null;
 	private static PrintStream printStreamErr=null;
 	
-	private SnoicsFileHelper snoicsFile=new SnoicsFileHelper();
+	private FileHelper snoicsFile=new FileHelper();
     
 	/**
 	 * 获取是否保留原来的内容

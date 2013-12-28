@@ -23,7 +23,7 @@ import java.util.Date;
 import framework.base.snoic.base.interfaces.log.Log;
 import framework.base.snoic.base.util.DateTime;
 import framework.base.snoic.base.util.StringClass;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 /**
  * 普通日志
  * @author 
@@ -43,7 +43,7 @@ public class NormalLog implements Log{
 
     private String logfile="";
     
-    private SnoicsFileHelper snoicsFile = new SnoicsFileHelper();
+    private FileHelper snoicsFile = new FileHelper();
 
     private int logType = 0;
     

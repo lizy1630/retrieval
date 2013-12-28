@@ -22,7 +22,7 @@ import java.util.Properties;
 import org.apache.commons.logging.Log;
 
 import framework.base.snoic.base.util.StringClass;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 import framework.retrieval.engine.common.RetrievalUtil;
 import framework.retrieval.engine.context.impl.RetrievalFactory;
 
@@ -34,7 +34,7 @@ import framework.retrieval.engine.context.impl.RetrievalFactory;
  */
 public class RetrievalApplicationContext {
 	private Log log=RetrievalUtil.getLog(this.getClass());
-    private static SnoicsFileHelper fileHelper=new SnoicsFileHelper();
+    private static FileHelper fileHelper=new FileHelper();
     
 	/**
 	 * 索引文件根目录

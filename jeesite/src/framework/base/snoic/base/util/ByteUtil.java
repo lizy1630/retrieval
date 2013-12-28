@@ -16,6 +16,13 @@
 
 package framework.base.snoic.base.util;
 
+import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
 
 /**
  * 
@@ -39,6 +46,25 @@ public class ByteUtil {
 		}
 		return hs;
 	}
+	
+	public static byte[] hex2byte(String hs) {
+		if (hs == null || hs.equals("")) {
+			return null;
+		}
+		hs = hs.toUpperCase();
+		int length = hs.length() / 2;
+		char[] hexChars = hs.toCharArray();
+		byte[] d = new byte[length];
+		for (int i = 0; i < length; i++) {
+			int pos = i * 2;
+			d[i] = (byte) (charToByte(hexChars[pos]) << 4 | charToByte(hexChars[pos + 1]));
+		}
+		return d;
+	}
+	
+	public static byte charToByte(char c) {
+		return (byte) "0123456789ABCDEF".indexOf(c);
+	}
 
 	public static String byto2hex2(byte[] bin) {
 		StringBuffer buf = new StringBuffer();
@@ -49,4 +75,5 @@ public class ByteUtil {
 		}
 		return buf.toString();
 	}
+	
 }

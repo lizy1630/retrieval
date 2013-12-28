@@ -27,7 +27,7 @@ import org.w3c.dom.NodeList;
 
 import framework.base.snoic.base.exception.SnoicsRuntimeException;
 import framework.base.snoic.base.util.StringClass;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 
 /**
  * 读取XML<br><br>
@@ -146,7 +146,7 @@ public class ReadXml {
 	//当前生成的节点
 	private Node currentNode=null;
 	
-	private SnoicsFileHelper snoicsFile=new SnoicsFileHelper();
+	private FileHelper snoicsFile=new FileHelper();
 	
 	public ReadXml() {
 		

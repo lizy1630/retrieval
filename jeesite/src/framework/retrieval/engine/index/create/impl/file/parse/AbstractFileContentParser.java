@@ -23,7 +23,7 @@ import org.apache.commons.logging.Log;
 
 import framework.base.snoic.base.util.DateTime;
 import framework.base.snoic.base.util.StringClass;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 import framework.retrieval.engine.common.RetrievalUtil;
 import framework.retrieval.engine.index.create.impl.file.IFileContentParser;
 import framework.retrieval.engine.index.doc.file.internal.RFileDocument;
@@ -35,7 +35,7 @@ import framework.retrieval.engine.index.doc.file.internal.RFileDocument;
  */
 public abstract class AbstractFileContentParser implements IFileContentParser{
 	private Log log=RetrievalUtil.getLog(this.getClass());
-	protected static SnoicsFileHelper fileHelper = new SnoicsFileHelper();
+	protected static FileHelper fileHelper = new FileHelper();
 	protected static DateTime dateTime=new DateTime();
 	
 	public void parse(RFileDocument document,long maxFileSize) {

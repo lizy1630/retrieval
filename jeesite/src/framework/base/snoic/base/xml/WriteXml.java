@@ -28,7 +28,7 @@ import org.w3c.dom.Text;
 
 import framework.base.snoic.base.exception.SnoicsRuntimeException;
 import framework.base.snoic.base.util.StringClass;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 
 /**
  * 写XML<br><br>
@@ -494,7 +494,7 @@ public class WriteXml{
     	boolean flag=false;
     	if(xmlfile instanceof String) {
     		String stringXmlfile=(String)xmlfile;
-    		SnoicsFileHelper snoicsFile=new SnoicsFileHelper();
+    		FileHelper snoicsFile=new FileHelper();
     		if(!snoicsFile.isFile(stringXmlfile)) {
 //    			String realpath=StringClass.getRealPath(this.getClass(),"/","UTF-8");
     			String realpath=StringClass.getRealPath(this.getClass());

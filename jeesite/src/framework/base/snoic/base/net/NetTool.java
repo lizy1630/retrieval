@@ -23,14 +23,14 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 /**
  * NetTool
  * @author 
  *
  */
 public class NetTool {
-	private static SnoicsFileHelper snoicsFileHelper=new SnoicsFileHelper();
+	private static FileHelper snoicsFileHelper=new FileHelper();
 	private static int defaultConnectionTimeOut=10000;
 	/**
 	 * 把一个网络文件保存成本地文本文件

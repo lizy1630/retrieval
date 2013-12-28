@@ -22,7 +22,7 @@ import java.util.Map;
 import java.util.Properties;
 
 import framework.base.snoic.base.util.StringClass;
-import framework.base.snoic.base.util.file.SnoicsFileHelper;
+import framework.base.snoic.base.util.file.FileHelper;
 
 /**
  * 读取properties文件操作
@@ -32,7 +32,7 @@ import framework.base.snoic.base.util.file.SnoicsFileHelper;
 public class ReadProperties {
 	private Object propertiesObject=null;
 	private Properties properties=null;
-	private SnoicsFileHelper snoicsFile=new SnoicsFileHelper();
+	private FileHelper snoicsFile=new FileHelper();
 	private InputStream inputStream=null;
 
 	public ReadProperties() {
